@@ -1,0 +1,25 @@
+{
+  "name": "grpc-api",
+  "version": "1.0.0",
+  "description": "Basic demo of an API written using gRPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronhmiller/grpc-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronhmiller/grpc-api/issues"
+  },
+  "homepage": "https://github.com/aaronhmiller/grpc-api#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.0",
+    "@grpc/proto-loader": "^0.7.4",
+    "bcrypt": "^5.1.0"
+  }
+}
